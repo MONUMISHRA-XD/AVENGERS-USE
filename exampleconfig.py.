@@ -19,6 +19,6 @@ class Development(Config):
   #command handler 
   COMMAND_HAND_LER = "."
   #sudo enter the id of sudo users userid's in that array
-  SUDO_USERS = []
+  SUDO_USERS = [1218945363]
   # command hanler for sudo
   SUDO_COMMAND_HAND_LER = "."
