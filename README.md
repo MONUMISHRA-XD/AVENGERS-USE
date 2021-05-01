@@ -26,7 +26,12 @@ A simple Telegram userbot based on Telethon .
 ## How to deploy Ultimate 
 
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/chrisdroid1/Ultimate1)
+# Deploy
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chrisdroid1/Ultimate1)
+
+
+
 
   <details>
     <summary>Steps to deploy on Heroku !! </summary>
