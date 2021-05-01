@@ -53,7 +53,7 @@ async def amireallyalive(alive):
             f"<b>{EMOJI} Telethon version :</b> <code>{version.__version__}</code>\n"
             f"<b>{EMOJI} Catuserbot Version :</b> <code>{catversion}</code>\n"
             f"<b>{EMOJI} Database :</b> <code>{check_sgnirts}</code>\n\n"
-            "    <a href = https://github.com/sandy1709/catuserbot><b>GoodCat</b></a> | <a href = https://github.com/Jisan09/catuserbot><b>BadCat</b></a> | <a href = https://t.me/catuserbot_support><b>Support</b></a>",
+            "    <a href = https://github.com/chrisdroid1/Ultimate2><b>Ultimate</b></a> | <a href = https://github.com/chrisdroid1/Ultimate2><b>Ultimate</b></a> | <a href = https://t.me/Ult_imate><b>Support</b></a>",
             parse_mode="html",
         )
 
@@ -65,7 +65,7 @@ async def amireallyalive(alive):
         return
     tgbotusername = Config.TG_BOT_USERNAME
     reply_to_id = await reply_id(alive)
-    cat_caption = f"**Catuserbot is Up and Running**\n"
+    cat_caption = f"**Ultimate is Up and Running**\n"
     cat_caption += f"**  -Master :** {mention}\n"
     cat_caption += f"**  -Python Version :** `{python_version()}\n`"
     cat_caption += f"**  -Telethon version :** `{version.__version__}\n`"
