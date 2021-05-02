@@ -1,4 +1,4 @@
-name: UltimateChecker
+name: catChecker
 
 on: [push, pull_request]
 
