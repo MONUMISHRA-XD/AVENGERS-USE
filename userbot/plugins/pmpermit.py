@@ -60,7 +60,7 @@ if Config.PRIVATE_GROUP_ID != 0:
             pmpermit_sql.approve(user.id, reason)
             await edit_delete(
                 event,
-                f"`Approved to pm `[{user.first_name}](tg://user?id={user.id})",
+                f"`Approved to message me`[{user.first_name}](tg://user?id={user.id})",
                 5,
             )
             if user.id in PMMESSAGE_CACHE:
@@ -96,7 +96,7 @@ if Config.PRIVATE_GROUP_ID != 0:
             pmpermit_sql.disapprove(user.id)
             await edit_or_reply(
                 event,
-                f"`disapproved to pm` [{user.first_name}](tg://user?id={user.id})",
+                f"`disapproved to message me` [{user.first_name}](tg://user?id={user.id})",
             )
         else:
             await edit_or_reply(
@@ -130,7 +130,7 @@ if Config.PRIVATE_GROUP_ID != 0:
                 return
         await event.client(functions.contacts.UnblockRequest(user.id))
         await event.edit(
-            f"`You are Unblocked Now .You Can Message Me From now..`[{user.first_name}](tg://user?id={user.id})"
+            f"`You are Unblocked Now, giving another chance .You Can Message Me From now..`[{user.first_name}](tg://user?id={user.id})"
         )
 
     @bot.on(admin_cmd(pattern="listapproved$"))
@@ -248,15 +248,15 @@ if Config.PRIVATE_GROUP_ID != 0:
                         warns=warns,
                     )
                     + "\n\n"
-                    + "**Send** `/start` ** so that my master can decide why you're here.**"
+                    + "**Send** `/start` ** so that my boss can know why you're here.**"
                 )
             else:
 
                 USER_BOT_NO_WARN = (
-                    f"`Hi `{mention}`, I haven't approved you yet to personal message me, Don't spam my inbox."
+                    f"`Hi `{mention}`, I haven't approved you yet to message me, Don't spam my inbox."
                     f"Just say the reason and wait until you get approved.\
                                     \n\nyou have {warns}/{totalwarns} warns`\
-                                    \n\n**Send** `/start` **so that my master can decide why you're here.**"
+                                    \n\n**Send** `/start` **so that my master can know why you're here.**"
                 )
         else:
             if Config.CUSTOM_PMPERMIT_TEXT:
