@@ -58,7 +58,7 @@ class Config(object):
         or 0
     )
     # set this with users id for whom this bot to act as sudo
-    SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "1218945363").split()}
+    SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
 
     # Custom vars for userbot
     # set this will channel id of your custom plugins
