@@ -21,7 +21,7 @@ from telethon.tl import functions
 from . import AUTONAME, BOTLOG, BOTLOG_CHATID, DEFAULT_BIO
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
-DEFAULTUSERBIO = DEFAULT_BIO or " ᗯᗩᏆᎢᏆᑎᏀ ᏞᏆᏦᗴ ᎢᏆᗰᗴ  "
+DEFAULTUSERBIO = DEFAULT_BIO or " Life's Short So Ginger Yourself"
 CHANGE_TIME = Config.CHANGE_TIME
 DEFAULTUSER = AUTONAME or Config.ALIVE_NAME
 
@@ -31,7 +31,7 @@ autopic_path = os.path.join(os.getcwd(), "userbot", "original_pic.png")
 digitalpic_path = os.path.join(os.getcwd(), "userbot", "digital_pic.png")
 autophoto_path = os.path.join(os.getcwd(), "userbot", "photo_pfp.png")
 
-digitalpfp = Config.DIGITAL_PIC or "https://telegra.ph/file/aeaebe33b1f3988a0b690.jpg"
+digitalpfp = Config.DIGITAL_PIC or "https://telegra.ph/file/ea29175f3ca045113782a.mp4"
 
 
 @bot.on(admin_cmd(pattern="autopic ?(.*)"))
