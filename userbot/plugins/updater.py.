@@ -16,10 +16,10 @@ heroku_api = "https://api.heroku.com"
 
 UPSTREAM_REPO_BRANCH = Config.UPSTREAM_REPO_BRANCH
 
-if Config.UPSTREAM_REPO == "Ultimate":
-    UPSTREAM_REPO_URL = "https://github.com/chrisdroid1/Ultimate2"
+if Config.UPSTREAM_REPO == "goodcat":
+    UPSTREAM_REPO_URL = "https://github.com/sandy1709/catuseurbot"
 elif Config.UPSTREAM_REPO == "Ultimate":
-    UPSTREAM_REPO_URL = "https://github.com/chrisdroid1/Ultimate2"
+    UPSTREAM_REPO_URL = "https://github.com/Chrisdroid1/Ultimate2"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
@@ -162,13 +162,14 @@ async def upstream(event):
     # Special case for deploy
     if changelog == "" and not force_update:
         await event.edit(
-            "\n`ULTIMATE is`  **up-to-date**  `with`  " f"**{UPSTREAM_REPO_BRANCH}**\n"
+            "\n`ULTIMATE is`  **up-to-date**  `with`  "
+            f"**{UPSTREAM_REPO_BRANCH}**\n"
         )
         return repo.__del__()
     if conf == "" and not force_update:
         await print_changelogs(event, ac_br, changelog)
         await event.delete()
-        return await event.respond("do `.update deploy` to update the Ultimate")
+        return await event.respond("do `.update deploy` to update the catuserbot")
 
     if force_update:
         await event.edit(
@@ -271,8 +272,8 @@ async def upstream(event):
     await deploy(event, repo, ups_rem, ac_br, txt)
 
 
-@bot.on(admin_cmd(pattern=r"", outgoing=True))
-@bot.on(sudo_cmd(pattern=r"", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"goodcat$", outgoing=True))
+@bot.on(sudo_cmd(pattern=r"goodcat$", allow_sudo=True))
 async def variable(var):
     if Config.HEROKU_API_KEY is None:
         return await edit_delete(
@@ -288,7 +289,7 @@ async def variable(var):
         )
     heroku_var = app.config()
     await edit_or_reply(var, f"`Updating Ultimate, wait for 2-3 minutes.`")
-    heroku_var["UPSTREAM_REPO"] = "https://github.com/chrisdroid1/Ultimate2"
+    heroku_var["UPSTREAM_REPO"] = ""
 
 
 CMD_HELP.update(
@@ -303,7 +304,7 @@ CMD_HELP.update(
         "\n\n📌** CMD ➥** `.update deploy`"
         "\n**USAGE   ➥  **Deploy your userbot.So even you restart it doesnt go back to previous version"
         "\nThis will triggered deploy always, even no updates."
-        "\n\n📌** CMD ➥** `.ultimate`"
-        "\n**USAGE   ➥  **update repo."
+        "\n\n📌** CMD ➥** `.`"
+        "\n**USAGE   ➥  **."
     }
 )
