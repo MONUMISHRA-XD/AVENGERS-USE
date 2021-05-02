@@ -8,7 +8,7 @@ from telethon.tl.types import Channel, Chat, User
 # =========================================================== #
 #                           STRINGS                           #
 # =========================================================== #
-STAT_INDICATION = "`Collecting stats, Wait man`"
+STAT_INDICATION = "`Collecting data, Wait man`"
 CHANNELS_STR = "**The list of channels in which you are their are here **\n\n"
 CHANNELS_ADMINSTR = "**The list of channels in which you are admin are here **\n\n"
 CHANNELS_OWNERSTR = "**The list of channels in which you are owner are here **\n\n"
