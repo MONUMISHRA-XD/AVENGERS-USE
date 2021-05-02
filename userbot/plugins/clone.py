@@ -12,11 +12,7 @@ from telethon.tl.types import MessageEntityMentionName
 from . import ALIVE_NAME, AUTONAME, DEFAULT_BIO
 
 DEFAULTUSER = str(AUTONAME) if AUTONAME else str(ALIVE_NAME)
-DEFAULTUSERBIO = (
-    str(DEFAULT_BIO)
-    if DEFAULT_BIO
-    else "Life's Short So Ginger Yourself"
-)
+DEFAULTUSERBIO = str(DEFAULT_BIO) if DEFAULT_BIO else "Life's Short So Ginger Yourself"
 if Config.PRIVATE_GROUP_BOT_API_ID is None:
     BOTLOG = False
 else:
@@ -63,7 +59,9 @@ async def _(event):
     await event.client(functions.photos.UploadProfilePhotoRequest(pfile))
     await event.delete()
     await event.client.send_message(
-        event.chat_id, "**I SUCCESSFULLY CLONED THIS CARELESS BEING**", reply_to=reply_message
+        event.chat_id,
+        "**I SUCCESSFULLY CLONED THIS CARELESS BEING**",
+        reply_to=reply_message,
     )
     if BOTLOG:
         await event.client.send_message(
