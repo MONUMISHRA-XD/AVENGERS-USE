@@ -12,11 +12,7 @@ from telethon.tl.types import MessageEntityMentionName
 from . import ALIVE_NAME, AUTONAME, DEFAULT_BIO
 
 DEFAULTUSER = str(AUTONAME) if AUTONAME else str(ALIVE_NAME)
-DEFAULTUSERBIO = (
-    str(DEFAULT_BIO)
-    if DEFAULT_BIO
-    else "Life's Short So Ginger Yourself"
-)
+DEFAULTUSERBIO = str(DEFAULT_BIO) if DEFAULT_BIO else "Life's Short So Ginger Yourself"
 if Config.PRIVATE_GROUP_BOT_API_ID is None:
     BOTLOG = False
 else:
