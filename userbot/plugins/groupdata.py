@@ -402,7 +402,7 @@ async def fetch_info(chat, event):
         for _ in bots_list:
             bots += 1
 
-    caption = "<b>CHAT INFO:</b>\n"
+    caption = "<b>CHAT INFO BY ULTIMATE:</b>\n"
     caption += f"ID: <code>{chat_obj_info.id}</code>\n"
     if chat_title is not None:
         caption += f"{chat_type} name: {chat_title}\n"
