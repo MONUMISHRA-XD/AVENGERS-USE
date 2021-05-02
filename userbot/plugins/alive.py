@@ -28,9 +28,7 @@ async def amireallyalive(alive):
         cat_caption += (
             f"<b>{EMOJI} Telethon version :</b> <code>{version.__version__}</code>\n"
         )
-        cat_caption += (
-            f"<b>{EMOJI} Ultimate Version :</b> <code>{catversion}</code>\n"
-        )
+        cat_caption += f"<b>{EMOJI} Ultimate Version :</b> <code>{catversion}</code>\n"
         cat_caption += f"<b>{EMOJI} Database :</b> <code>{check_sgnirts}</code>\n\n"
         cat_caption += "    <a href = https://github.com/chrisdroid1/Ultimate2><b>Ultimate</b></a> | <a href = https://t.me/Ult_imate><b>Channel</b></a> | <a href = https://t.me/Ultim_ate><b>Group</b></a>"
         await alive.client.send_file(
