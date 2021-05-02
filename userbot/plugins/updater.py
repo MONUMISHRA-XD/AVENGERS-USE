@@ -16,10 +16,10 @@ heroku_api = "https://api.heroku.com"
 
 UPSTREAM_REPO_BRANCH = Config.UPSTREAM_REPO_BRANCH
 
-if Config.UPSTREAM_REPO == "goodcat":
-    UPSTREAM_REPO_URL = "https://github.com/sandy1709/catuseurbot"
-elif Config.UPSTREAM_REPO == "Ultimate":
-    UPSTREAM_REPO_URL = "https://github.com/Chrisdroid1/Ultimate2"
+if Config.UPSTREAM_REPO == "Ultimate":
+    UPSTREAM_REPO_URL = "https://github.com/chrisdroid1/Ultimate2"
+elif Config.UPSTREAM_REPO == "badcat":
+    UPSTREAM_REPO_URL = "https://github.com/Jisan09/catusejdjdrbot"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
@@ -162,7 +162,8 @@ async def upstream(event):
     # Special case for deploy
     if changelog == "" and not force_update:
         await event.edit(
-            "\n`ULTIMATE is`  **up-to-date**  `with`  " f"**{UPSTREAM_REPO_BRANCH}**\n"
+            "\n`CATUSERBOT is`  **up-to-date**  `with`  "
+            f"**{UPSTREAM_REPO_BRANCH}**\n"
         )
         return repo.__del__()
     if conf == "" and not force_update:
@@ -235,8 +236,8 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
 @bot.on(admin_cmd(outgoing=True, pattern=r"update deploy$"))
 @bot.on(sudo_cmd(pattern="update deploy$", allow_sudo=True))
 async def upstream(event):
-    event = await edit_or_reply(event, "`Pulling the Ultimate repo wait a sec ....`")
-    off_repo = "https://github.com/chrisdroid1/Ultimate1"
+    event = await edit_or_reply(event, "`Pulling the catpack repo wait a sec ....`")
+    off_repo = "https://github.com/Mr-confused/catpack"
     os.chdir("/app")
     catcmd = f"rm -rf .git"
     try:
@@ -287,7 +288,7 @@ async def variable(var):
             "Set the required var in heroku to function this normally `HEROKU_APP_NAME`.",
         )
     heroku_var = app.config()
-    await edit_or_reply(var, f"`Updating Ultimate, wait for 2-3 minutes.`")
+    await edit_or_reply(var, f"`not yet, loading, wait for 2-3 minutes.`")
     heroku_var["UPSTREAM_REPO"] = ""
 
 
