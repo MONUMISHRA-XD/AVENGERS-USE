@@ -16,8 +16,8 @@ heroku_api = "https://api.heroku.com"
 
 UPSTREAM_REPO_BRANCH = Config.UPSTREAM_REPO_BRANCH
 
-if Config.UPSTREAM_REPO == "goodboyt":
-    UPSTREAM_REPO_URL = "https://github.com/sandy1709/catuserbot"
+if Config.UPSTREAM_REPO == "Ultimate":
+    UPSTREAM_REPO_URL = "https://github.com/chrisdroid1/Ultimate2"
 elif Config.UPSTREAM_REPO == "Ultimate":
     UPSTREAM_REPO_URL = "https://github.com/chrisdroid1/Ultimate2"
 else:
@@ -162,14 +162,14 @@ async def upstream(event):
     # Special case for deploy
     if changelog == "" and not force_update:
         await event.edit(
-            "\n`CATUSERBOT is`  **up-to-date**  `with`  "
+            "\n`ULTIMATE is`  **up-to-date**  `with`  "
             f"**{UPSTREAM_REPO_BRANCH}**\n"
         )
         return repo.__del__()
     if conf == "" and not force_update:
         await print_changelogs(event, ac_br, changelog)
         await event.delete()
-        return await event.respond("do `.update deploy` to update the catuserbot")
+        return await event.respond("do `.update deploy` to update the Ultimate")
 
     if force_update:
         await event.edit(
@@ -272,8 +272,8 @@ async def upstream(event):
     await deploy(event, repo, ups_rem, ac_br, txt)
 
 
-@bot.on(admin_cmd(pattern=r"goodcat$", outgoing=True))
-@bot.on(sudo_cmd(pattern=r"goodcat$", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"", outgoing=True))
+@bot.on(sudo_cmd(pattern=r"", allow_sudo=True))
 async def variable(var):
     if Config.HEROKU_API_KEY is None:
         return await edit_delete(
