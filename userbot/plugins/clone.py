@@ -15,7 +15,7 @@ DEFAULTUSER = str(AUTONAME) if AUTONAME else str(ALIVE_NAME)
 DEFAULTUSERBIO = (
     str(DEFAULT_BIO)
     if DEFAULT_BIO
-    else "sıɥʇ ǝpoɔǝp uǝɥʇ llıʇu∩ ˙ ǝɔɐds ǝʇɐʌıɹd ǝɯos ǝɯ ǝʌı⅁˙"
+    else "Life's Short So Ginger Yourself"
 )
 if Config.PRIVATE_GROUP_BOT_API_ID is None:
     BOTLOG = False
@@ -63,7 +63,7 @@ async def _(event):
     await event.client(functions.photos.UploadProfilePhotoRequest(pfile))
     await event.delete()
     await event.client.send_message(
-        event.chat_id, "**LET US BE AS ONE**", reply_to=reply_message
+        event.chat_id, "**I SUCCESSFULLY CLONED THIS CARELESS BEING**", reply_to=reply_message
     )
     if BOTLOG:
         await event.client.send_message(
