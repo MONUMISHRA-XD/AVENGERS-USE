@@ -20,13 +20,13 @@ async def amireallyalive(alive):
     _, check_sgnirts = check_data_base_heal_th()
     if CAT_IMG:
         cat_caption = f"<b>{CUSTOM_ALIVE_TEXT}</b>\n\n"
-        cat_caption += f"<b>{EMOJI} Master : {hmention}</b>\n"
+        cat_caption += f"<b>{EMOJI} 🅱🅾🆂🆂 : {hmention}</b>\n"
         cat_caption += f"<b>{EMOJI} Uptime :</b> <code>{uptime}</code>\n"
         cat_caption += (
             f"<b>{EMOJI} Python Version :</b> <code>{python_version()}</code>\n"
         )
         cat_caption += (
-            f"<b>{EMOJI} Telethon version :</b> <code>{version.__version__}</code>\n"
+            f"<b>{EMOJI} 🆃🅴🅻🅴🆃🅷🅾🅽 version :</b> <code>{version.__version__}</code>\n"
         )
         cat_caption += f"<b>{EMOJI} Ultimate Version :</b> <code>{catversion}</code>\n"
         cat_caption += f"<b>{EMOJI} Database :</b> <code>{check_sgnirts}</code>\n\n"
@@ -45,10 +45,10 @@ async def amireallyalive(alive):
         await edit_or_reply(
             alive,
             f"<b>{CUSTOM_ALIVE_TEXT}</b>\n\n"
-            f"<b>{EMOJI} Master : {hmention}</b>\n"
+            f"<b>{EMOJI} 🅱🅾🆂🆂 : {hmention}</b>\n"
             f"<b>{EMOJI} Uptime :</b> <code>{uptime}</code>\n"
             f"<b>{EMOJI} Python Version :</b> <code>{python_version()}</code>\n"
-            f"<b>{EMOJI} Telethon version :</b> <code>{version.__version__}</code>\n"
+            f"<b>{EMOJI} 🆃🅴🅻🅴🆃🅷🅾🅽 version :</b> <code>{version.__version__}</code>\n"
             f"<b>{EMOJI} Ultimate Version :</b> <code>{catversion}</code>\n"
             f"<b>{EMOJI} Database :</b> <code>{check_sgnirts}</code>\n\n"
             "    <a href = https://github.com/chrisdroid1/Ultimate2><b>Ultimate</b></a> | <a href = https://t.me/Ult_imate><b>Channel</b></a> | <a href = https://t.me/Ultim_ate><b>Group</b></a>",
@@ -64,9 +64,9 @@ async def amireallyalive(alive):
     tgbotusername = Config.TG_BOT_USERNAME
     reply_to_id = await reply_id(alive)
     cat_caption = f"**Ultimate is Up and Running**\n"
-    cat_caption += f"**  -Master :** {mention}\n"
+    cat_caption += f"**  -🅱🅾🆂🆂 :** {mention}\n"
     cat_caption += f"**  -Python Version :** `{python_version()}\n`"
-    cat_caption += f"**  -Telethon version :** `{version.__version__}\n`"
+    cat_caption += f"**  -🆃🅴🅻🅴🆃🅷🅾🅽 version :** `{version.__version__}\n`"
     cat_caption += f"**  -Ultimate Version :** `{catversion}`\n"
     results = await bot.inline_query(tgbotusername, cat_caption)  # pylint:disable=E0602
     await results[0].click(alive.chat_id, reply_to=reply_to_id, hide_via=True)
