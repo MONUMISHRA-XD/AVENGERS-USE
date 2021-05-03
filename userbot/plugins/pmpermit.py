@@ -253,10 +253,10 @@ if Config.PRIVATE_GROUP_ID != 0:
             else:
 
                 USER_BOT_NO_WARN = (
-                    f"`Hi `{mention}`, I haven't approved you yet to message me, Don't spam my inbox."
-                    f"Just say the reason and wait until you get approved.\
+                    f"`Hi `{mention}`,  I can't allow you to my master's PM without his permissions please be patient, Thankyou."
+                    f"Hmm say the reason and wait until you get approved.\
                                     \n\nyou have {warns}/{totalwarns} warns`\
-                                    \n\n**Send** `/start` **so that my master can know why you're here.**"
+                                    \n\n**Send** `/start` **so that my master can know why you are here.**"
                 )
         else:
             if Config.CUSTOM_PMPERMIT_TEXT:
