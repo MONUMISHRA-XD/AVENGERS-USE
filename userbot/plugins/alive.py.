@@ -7,7 +7,7 @@ from . import StartTime, catversion, get_readable_time, hmention, mention, reply
 
 CAT_IMG = Config.ALIVE_PIC
 CUSTOM_ALIVE_TEXT = (
-    Config.CUSTOM_ALIVE_TEXT or "🔰 ᴍʏ ʙᴏᴛ ɪꜱ ᴜᴘ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ 🔰"
+    Config.CUSTOM_ALIVE_TEXT or "🔰 ᴍʏ ʙᴏᴛ ɪꜱ ᴡᴏʀᴋɪɴɢ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ 🔰"
 )
 EMOJI = Config.CUSTOM_ALIVE_EMOJI or "🔰"
 
