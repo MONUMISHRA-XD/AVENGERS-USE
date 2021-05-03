@@ -22,17 +22,17 @@ async def amireallyalive(alive):
     _, check_sgnirts = check_data_base_heal_th()
     if CAT_IMG:
         cat_caption = f"<b>{CUSTOM_ALIVE_TEXT}</b>\n\n"
-        cat_caption += f"<b>{EMOJI} 🅱🅾🆂🆂 : {hmention}</b>\n"
-        cat_caption += f"<b>{EMOJI} 🆄🅿🆃🅸🅼🅴 :</b> <code>{uptime}</code>\n"
+        cat_caption += f"<b>{EMOJI} 𝕭𝖔𝖘𝖘 : {hmention}</b>\n"
+        cat_caption += f"<b>{EMOJI} 𝓤𝓹𝓽𝓲𝓶𝓮 :</b> <code>{uptime}</code>\n"
         cat_caption += (
-            f"<b>{EMOJI} 🅿🆈🆃🅷🅾🅽 🆅🅴🆁🆂🅸🅾🅽 :</b> <code>{python_version()}</code>\n"
+            f"<b>{EMOJI} 𝓟𝔂𝓽𝓱𝓸𝓷 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :</b> <code>{python_version()}</code>\n"
         )
         cat_caption += (
-            f"<b>{EMOJI} 🆃🅴🅻🅴🆃🅷🅾🅽 🆅🅴🆁🆂🅸🅾🅽 :</b> <code>{version.__version__}</code>\n"
+            f"<b>{EMOJI} 𝓣𝓮𝓵𝓮𝓽𝓱𝓸𝓷 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :</b> <code>{version.__version__}</code>\n"
         )
-        cat_caption += f"<b>{EMOJI} 🆄🅻🆃🅸🅼🅰🆃🅴 🆅🅴🆁🆂🅸🅾🅽 :</b> <code>{catversion}</code>\n"
-        cat_caption += f"<b>{EMOJI} 🅳🅰🆃🅰🅱🅰🆂🅴 :</b> <code>{check_sgnirts}</code>\n\n"
-        cat_caption += "    <a href = https://github.com/chrisdroid1/Ultimate2><b>🆄🅻🆃🅸🅼🅰🆃🅴</b></a> | <a href = https://t.me/Ult_imate><b>🅲🅷🅰🅽🅽🅴🅻</b></a> | <a href = https://t.me/Ultim_ate><b>🅶🆁🅾🆄🅿</b></a>"
+        cat_caption += f"<b>{EMOJI} 𝓤𝓵𝓽𝓲𝓶𝓪𝓽𝓮 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :</b> <code>{catversion}</code>\n"
+        cat_caption += f"<b>{EMOJI} 𝓓𝓪𝓽𝓪𝓫𝓪𝓼𝓮 :</b> <code>{check_sgnirts}</code>\n\n"
+        cat_caption += "    <a href = https://github.com/chrisdroid1/Ultimate2><b>𝓤𝓵𝓽𝓲𝓶𝓪𝓽𝓮</b></a> | <a href = https://t.me/Ult_imate><b>𝓒𝓱𝓪𝓷𝓷𝓮𝓵</b></a> | <a href = https://t.me/Ultim_ate><b>𝓖𝓻𝓸𝓾𝓹</b></a>"
         await alive.client.send_file(
             alive.chat_id,
             CAT_IMG,
@@ -47,13 +47,13 @@ async def amireallyalive(alive):
         await edit_or_reply(
             alive,
             f"<b>{CUSTOM_ALIVE_TEXT}</b>\n\n"
-            f"<b>{EMOJI} 🅱🅾🆂🆂 : {hmention}</b>\n"
-            f"<b>{EMOJI} 🆄🅿🆃🅸🅼🅴 :</b> <code>{uptime}</code>\n"
-            f"<b>{EMOJI} 🅿🆈🆃🅷🅾🅽 🆅🅴🆁🆂🅸🅾🅽 :</b> <code>{python_version()}</code>\n"
-            f"<b>{EMOJI} 🆃🅴🅻🅴🆃🅷🅾🅽 🆅🅴🆁🆂🅸🅾🅽 :</b> <code>{version.__version__}</code>\n"
-            f"<b>{EMOJI} 🆄🅻🆃🅸🅼🅰🆃🅴 🆅🅴🆁🆂🅸🅾🅽 :</b> <code>{catversion}</code>\n"
-            f"<b>{EMOJI} 🅳🅰🆃🅰🅱🅰🆂🅴 :</b> <code>{check_sgnirts}</code>\n\n"
-            "    <a href = https://github.com/chrisdroid1/Ultimate2><b>🆄🅻🆃🅸🅼🅰🆃🅴</b></a> | <a href = https://t.me/Ult_imate><b>🅲🅷🅰🅽🅽🅴🅻</b></a> | <a href = https://t.me/Ultim_ate><b>🅶🆁🅾🆄🅿</b></a>",
+            f"<b>{EMOJI} 𝕭𝖔𝖘𝖘 : {hmention}</b>\n"
+            f"<b>{EMOJI} 𝓤𝓹𝓽𝓲𝓶𝓮 :</b> <code>{uptime}</code>\n"
+            f"<b>{EMOJI} 𝓟𝔂𝓽𝓱𝓸𝓷 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :</b> <code>{python_version()}</code>\n"
+            f"<b>{EMOJI} 𝓣𝓮𝓵𝓮𝓽𝓱𝓸𝓷 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :</b> <code>{version.__version__}</code>\n"
+            f"<b>{EMOJI} 𝓤𝓵𝓽𝓲𝓶𝓪𝓽𝓮 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :</b> <code>{catversion}</code>\n"
+            f"<b>{EMOJI} 𝓓𝓪𝓽𝓪𝓫𝓪𝓼𝓮 :</b> <code>{check_sgnirts}</code>\n\n"
+            "    <a href = https://github.com/chrisdroid1/Ultimate2><b>𝓤𝓵𝓽𝓲𝓶𝓪𝓽𝓮</b></a> | <a href = https://t.me/Ult_imate><b>𝓒𝓱𝓪𝓷𝓷𝓮𝓵</b></a> | <a href = https://t.me/Ultim_ate><b>𝓖𝓻𝓸𝓾𝓹</b></a>",
             parse_mode="html",
         )
 
@@ -66,10 +66,10 @@ async def amireallyalive(alive):
     tgbotusername = Config.TG_BOT_USERNAME
     reply_to_id = await reply_id(alive)
     cat_caption = f"**ᵁˡᵗⁱᵐᵃᵗᵉ ⁱˢ ᵁᵖ ᵃⁿᵈ ᴿᵘⁿⁿⁱⁿᵍ**\n"
-    cat_caption += f"**  -🅱🅾🆂🆂 :** {mention}\n"
-    cat_caption += f"**  -🅿🆈🆃🅷🅾🅽 🆅🅴🆁🆂🅸🅾🅽 :** `{python_version()}\n`"
-    cat_caption += f"**  -🆃🅴🅻🅴🆃🅷🅾🅽 🆅🅴🆁🆂🅸🅾🅽 :** `{version.__version__}\n`"
-    cat_caption += f"**  -🆄🅻🆃🅸🅼🅰🆃🅴 🆅🅴🆁🆂🅸🅾🅽 :** `{catversion}`\n"
+    cat_caption += f"**  -𝕭𝖔𝖘𝖘 :** {mention}\n"
+    cat_caption += f"**  -𝓟𝔂𝓽𝓱𝓸𝓷 𝓿𝓮𝓻𝓼𝓲𝓸𝓷  :** `{python_version()}\n`"
+    cat_caption += f"**  -𝓣𝓮𝓵𝓮𝓽𝓱𝓸𝓷 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :** `{version.__version__}\n`"
+    cat_caption += f"**  -𝓤𝓵𝓽𝓲𝓶𝓪𝓽𝓮 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :** `{catversion}`\n"
     results = await bot.inline_query(tgbotusername, cat_caption)  # pylint:disable=E0602
     await results[0].click(alive.chat_id, reply_to=reply_to_id, hide_via=True)
     await alive.delete()
