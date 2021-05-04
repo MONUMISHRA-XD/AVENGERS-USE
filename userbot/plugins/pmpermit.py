@@ -277,8 +277,9 @@ if Config.PRIVATE_GROUP_ID != 0:
                 )
             else:
                 USER_BOT_NO_WARN = (
-                    f"`Hi `{mention}`, I haven't approved you yet to personal message me, Don't spam my inbox."
-                    f"Just say the reason and wait until you get approved.\
+                    f"`Hello `{mention}`, this is Ultimate userbot private security protocol ⚠️
+This is my boss {my_fullname}  inbox."
+                    f"Just say the reason why you're here hopefully you will get a reply👨‍💻.\
                                     \n\nyou have {warns}/{totalwarns} warns`"
                 )
         if PMPERMIT_PIC:
