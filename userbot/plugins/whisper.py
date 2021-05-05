@@ -1,12 +1,10 @@
 # Made by @Kraken_The_BadASS for @HellBot_Official
 
-from telethon import events
-from asyncio import sleep
-import os, sys, random, re
-from userbot.utils import lightning_cmd
 from userbot import bot
+from userbot.utils import lightning_cmd
 
-# By Team DC 
+# By Team DC
+
 
 @borg.on(lightning_cmd(pattern="wspr ?(.*)"))
 async def wspr(event):
@@ -19,5 +17,3 @@ async def wspr(event):
     tap = await bot.inline_query(botusername, wwwspr)
     await tap[0].click(event.chat_id)
     await event.delete()
-    
-
