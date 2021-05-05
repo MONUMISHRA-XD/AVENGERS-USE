@@ -1,6 +1,6 @@
-''' No need to kang it if you kang it without giving us credit so you are gay.
+""" No need to kang it if you kang it without giving us credit so you are gay.
  Contributors: @keinshin & @hacker11000
-@blacklightningot'''
+@blacklightningot"""
 
 from telethon.tl.types import ChannelParticipantsAdmins
 
