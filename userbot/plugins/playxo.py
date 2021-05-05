@@ -1,7 +1,6 @@
 import re
 
 from userbot import bot
-from userbot.utils import CMD_LIST
 
 IF_EMOJI = re.compile(
     "["
