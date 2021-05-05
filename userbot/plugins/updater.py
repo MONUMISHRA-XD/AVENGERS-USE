@@ -162,8 +162,7 @@ async def upstream(event):
     # Special case for deploy
     if changelog == "" and not force_update:
         await event.edit(
-            "\n`Ultimate is`  **up-to-date**  `with`  "
-            f"**{UPSTREAM_REPO_BRANCH}**\n"
+            "\n`Ultimate is`  **up-to-date**  `with`  " f"**{UPSTREAM_REPO_BRANCH}**\n"
         )
         return repo.__del__()
     if conf == "" and not force_update:
