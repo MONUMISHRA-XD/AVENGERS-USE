@@ -1482,12 +1482,11 @@ async def action(event):
     await event.edit("**" + msg_str + "**")
 
 
-
 from userbot import CMD_HELP
 
 CMD_HELP.update(
     {
-     "anime": "`.action`\
+        "anime": "`.action`\
      \n**USAGE**: Gives Top 10 anime names\
      \n\nanime: .slice\
      \n**USAGE**: Gives To 10 sliced anime name\
@@ -1497,6 +1496,5 @@ CMD_HELP.update(
      \n**USAGE**: isekai Anime List.\
      \n\nanime: `.romance`\
      \n**USAGE**:  Romantic Anime"
-     
     }
 )
