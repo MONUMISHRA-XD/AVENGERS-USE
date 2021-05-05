@@ -4,8 +4,6 @@
 import asyncio
 
 
-
-
 @borg.on(admin_cmd(pattern="type (.*)"))
 async def _(event):
     if event.fwd_from:
