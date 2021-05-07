@@ -32,4 +32,3 @@ async def _(event):
         else:
             await event.delete()
             await event.client.send_file(event.chat_id, response.message)
-
