@@ -1,8 +1,8 @@
 <h2 align="center"><b>Owner: <a href="https://t.me/MONUMISHRA_07">MONU MISHRA</a></b></h2>
 <br>
-<p align="center"><a href="https://t.me/AVENGERSUSERBOT"><img src="https://telegra.ph/file/8f5a99908002469d9d5a7.jpg"></a></p> 
+<p align="center"><a href="https://t.me/AVENGERSUSERBOT"><img src="https://telegra.ph/file/269b2740aa709aa5aefc8.jpg"></a></p> 
 </p>
-<h1>ULTIMATE</h1>
+<h1>AVENGERSUSERBOT</h1>
 <b>A Powerful, Smart And Simple Userbot In Telethon.</b>
 <br>
 <br>
@@ -16,19 +16,16 @@
 [![Issues Open](https://img.shields.io/github/issues/chrisdroid1/Ultimate2?&style=flat-square)]( https://github.com/chrisdroid1/Ultimate2/issues)
 [![Issues Closed](https://img.shields.io/github/issues-closed/chrisdroid1/Ultimate2?&style=flat-square)]( https://github.com/chrisdroid1/Ultimate2/issues?q=is:closed)
 [![PR Open](https://img.shields.io/github/issues-pr/chrisdroid1/Ultimate2?&style=flat-square)]( https://github.com/chrisdroid1/Ultimate2/pulls)
-[![PR Closed](https://img.shields.io/github/issues-pr-closed/chrisdroid1/Ultimate2?&style=flat-square)]( https://github.com/chrisdroid1/Ultimate2/pulls?q=is:closed)
-![Repo Size](https://img.shields.io/github/repo-size/chrisdroid1/Ultimate2?style=flat-square)
-<br>
 
 
 A simple Telegram userbot based on Telethon .
 
-## How to deploy Ultimate 
+## How to deploy AVENGERSUSERBOT
 
 
 # Deploy
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chrisdroid1/Ultimate1)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://github.com/monumishra007/AVENGERS-USERBOT)
 
 
 
