@@ -25,7 +25,7 @@ A simple Telegram userbot based on Telethon .
 
 # Deploy
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://github.com/monumishra007/AVENGERS-USERBOT)
+[![Deploy To Heroku](https://heroku.com/deploy?template=https://github.com/monumishra007/AVENGERS-USERBOT)]
 
 
 
