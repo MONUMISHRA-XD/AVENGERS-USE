@@ -1,3 +1,5 @@
+#credits: @youngchris112 
+
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
