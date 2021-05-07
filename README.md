@@ -1,6 +1,6 @@
-<h2 align="center"><b>Owner: <a href="https://t.me/youngchris112">YOUNGCHRIS</a></b></h2>
+<h2 align="center"><b>Owner: <a href="https://t.me/MONUMISHRA_07">MONU MISHRA</a></b></h2>
 <br>
-<p align="center"><a href="https://t.me/Ult_imate"><img src="https://telegra.ph/file/8f5a99908002469d9d5a7.jpg"></a></p> 
+<p align="center"><a href="https://t.me/AVENGERSUSERBOT"><img src="https://telegra.ph/file/8f5a99908002469d9d5a7.jpg"></a></p> 
 </p>
 <h1>ULTIMATE</h1>
 <b>A Powerful, Smart And Simple Userbot In Telethon.</b>
