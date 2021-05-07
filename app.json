@@ -1,13 +1,13 @@
 {
-  "name": "Ultimate",
-  "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep modified by youngchris112",
-  "logo": "https://telegra.ph/file/8f5a99908002469d9d5a7.jpg",
+  "name": "AVENGERS-USERBOT",
+  "description": "A simple Telegram userbot based on Telethon . Maintained by MONUMISHRA_07",
+  "logo": "https://telegra.ph/file/269b2740aa709aa5aefc8.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/chrisdroid1/Ultimate2/",
+  "repository": "https://github.com/monumishra007/AVENGERS-USERBOT",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -75,7 +75,7 @@
    },
    "ALIVE_PIC": {
    "description": "TELEGRAPH LINK OF THE PIC",
-   "value": "https://telegra.ph/file/916070a7fe1b05922dec5.mp4",
+   "value": "https://telegra.ph/file/269b2740aa709aa5aefc8.jpg",
    "required": false
    },
    "PRIVATE_GROUP_ID": {
