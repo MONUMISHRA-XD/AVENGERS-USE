@@ -25,7 +25,7 @@ async def amireallyalive(alive):
         cat_caption += (
             f"<b>{EMOJI} 𝑷𝒀𝑻𝑯𝑶𝑵 𝑽𝑬𝑹𝑺𝑰𝑶𝑵:</b> <code>{python_version()}</code>\n"
         )
-        cat_caption += ( 
+        cat_caption += (
             f"<b>{EMOJI} 𝑻𝑬𝑳𝑬𝑻𝑯𝑶𝑵 𝑽𝑬𝑹𝑺𝑰𝑶𝑵 :</b> <code>{version.__version__}</code>\n"
         )
         cat_caption += f"<b>{EMOJI} 𝑨𝑽𝑬𝑵𝑮𝑬𝑹𝑺 𝑽𝑬𝑹𝑺𝑰𝑶𝑵:</b> <code>{catversion}</code>\n"
