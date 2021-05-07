@@ -64,4 +64,3 @@ async def _(event):
         else:
 
             await event.edit(f"{response.message.message}")
-
