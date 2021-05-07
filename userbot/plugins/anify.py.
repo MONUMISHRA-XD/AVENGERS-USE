@@ -37,7 +37,7 @@ async def _(event):
             msg = response.message.message
             await cat.edit(msg)
         else:
-            await cat.edit("sorry, I couldnt find it")
+            await cat.edit("Check message,media has been transformed")
         await event.client.send_read_acknowledge(conv.chat_id)
 
 
