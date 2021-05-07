@@ -20,17 +20,17 @@ async def amireallyalive(alive):
     _, check_sgnirts = check_data_base_heal_th()
     if CAT_IMG:
         cat_caption = f"<b>{CUSTOM_ALIVE_TEXT}</b>\n\n"
-        cat_caption += f"<b>{EMOJI} 𝕭𝖔𝖘𝖘 : {hmention}</b>\n"
-        cat_caption += f"<b>{EMOJI} 𝓤𝓹𝓽𝓲𝓶𝓮 :</b> <code>{uptime}</code>\n"
+        cat_caption += f"<b>{EMOJI} 𝑩𝑶𝑺𝑺 : {hmention}</b>\n"
+        cat_caption += f"<b>{EMOJI} 𝑼𝑷𝑻𝑰𝑴𝑬 :</b> <code>{uptime}</code>\n"
         cat_caption += (
-            f"<b>{EMOJI} 𝓟𝔂𝓽𝓱𝓸𝓷 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :</b> <code>{python_version()}</code>\n"
+            f"<b>{EMOJI} 𝑷𝒀𝑻𝑯𝑶𝑵 𝑽𝑬𝑹𝑺𝑰𝑶𝑵:</b> <code>{python_version()}</code>\n"
         )
-        cat_caption += (
-            f"<b>{EMOJI} 𝓣𝓮𝓵𝓮𝓽𝓱𝓸𝓷 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :</b> <code>{version.__version__}</code>\n"
+        cat_caption += ( 
+            f"<b>{EMOJI} 𝑻𝑬𝑳𝑬𝑻𝑯𝑶𝑵 𝑽𝑬𝑹𝑺𝑰𝑶𝑵 :</b> <code>{version.__version__}</code>\n"
         )
-        cat_caption += f"<b>{EMOJI} 𝓤𝓵𝓽𝓲𝓶𝓪𝓽𝓮 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :</b> <code>{catversion}</code>\n"
-        cat_caption += f"<b>{EMOJI} 𝓓𝓪𝓽𝓪𝓫𝓪𝓼𝓮 :</b> <code>{check_sgnirts}</code>\n\n"
-        cat_caption += "    <a href = https://github.com/chrisdroid1/Ultimate2><b>𝓤𝓵𝓽𝓲𝓶𝓪𝓽𝓮</b></a> | <a href = https://t.me/Ult_imate><b>𝓒𝓱𝓪𝓷𝓷𝓮𝓵</b></a> | <a href = https://t.me/Ultim_ate><b>𝓖𝓻𝓸𝓾𝓹</b></a>"
+        cat_caption += f"<b>{EMOJI} 𝑨𝑽𝑬𝑵𝑮𝑬𝑹𝑺 𝑽𝑬𝑹𝑺𝑰𝑶𝑵:</b> <code>{catversion}</code>\n"
+        cat_caption += f"<b>{EMOJI} 𝑫𝑨𝑻𝑨𝑩𝑨𝑺𝑬 :</b> <code>{check_sgnirts}</code>\n\n"
+        cat_caption += "    <a href = https://github.com/monumishra007/AVENGERS-USERBOT><b>AVENGERS</b></a> | <a href = https://t.me/AVENGERS_USERBOT><b>𝓒𝓱𝓪𝓷𝓷𝓮𝓵</b></a> | <a href = https://t.me/AVENGERS-USERBOT_CHAT><b>𝓖𝓻𝓸𝓾𝓹</b></a>"
         await alive.client.send_file(
             alive.chat_id,
             CAT_IMG,
@@ -51,7 +51,7 @@ async def amireallyalive(alive):
             f"<b>{EMOJI} 𝓣𝓮𝓵𝓮𝓽𝓱𝓸𝓷 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :</b> <code>{version.__version__}</code>\n"
             f"<b>{EMOJI} 𝓤𝓵𝓽𝓲𝓶𝓪𝓽𝓮 𝓿𝓮𝓻𝓼𝓲𝓸𝓷 :</b> <code>{catversion}</code>\n"
             f"<b>{EMOJI} 𝓓𝓪𝓽𝓪𝓫𝓪𝓼𝓮 :</b> <code>{check_sgnirts}</code>\n\n"
-            "    <a href = https://github.com/chrisdroid1/Ultimate2><b>𝓤𝓵𝓽𝓲𝓶𝓪𝓽𝓮</b></a> | <a href = https://t.me/Ult_imate><b>𝓒𝓱𝓪𝓷𝓷𝓮𝓵</b></a> | <a href = https://t.me/Ultim_ate><b>𝓖𝓻𝓸𝓾𝓹</b></a>",
+            "    <a href = https://github.com/monumishra007/AVENGERS-USERBOT><b>𝓤𝓵𝓽𝓲𝓶𝓪𝓽𝓮</b></a> | <a href = https://t.me/Ult_imate><b>𝓒𝓱𝓪𝓷𝓷𝓮𝓵</b></a> | <a href = https://t.me/Ultim_ate><b>𝓖𝓻𝓸𝓾𝓹</b></a>",
             parse_mode="html",
         )
 
