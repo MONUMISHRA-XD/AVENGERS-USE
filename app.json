@@ -1,0 +1,158 @@
+{
+  "name": "Ultimate",
+  "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep modified by youngchris112",
+  "logo": "https://telegra.ph/file/8f5a99908002469d9d5a7.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/chrisdroid1/Ultimate2/",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "give your name",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "Get this value by running python3 telesetup.py locally or https://replit.com/@JakuJaka/Ultimate#main.py",
+      "value": ""
+    },
+    "TG_BOT_USERNAME": {
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
+      "value": ""
+    },
+    "COMMAND_HAND_LER": {
+      "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
+      "value": ".",
+      "required": false
+    },
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING",
+      "required": false
+   },
+   "CUSTOM_ALIVE_EMOJI": {
+   "description": "EMOJI YOU WANT TO SHOW",
+   "value": "",
+   "required": false
+   },
+   "PRIVATE_GROUP_BOT_API_ID": {
+      "description": "create a private channel and then type .get_id add that value here for save messages",
+      "value": ""
+   },
+   "PM_PERMIT_GROUP_ID": {
+      "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
+      "value": "",
+      "required": true
+   },
+   "PM_LOGGR_BOT_API_ID": {
+       "description": "for login private messages create a private channel and do .get_id and add that id", 
+       "value": ""
+   },
+   "PLUGIN_CHANNEL": {
+    "description": "Channel Where You Save Your Plugins",
+    "value": "",
+    "required": true 
+   },
+   "SUDO_USERS": {
+    "description": "Users you want to give access to your bot. (Don't allow unknown people)",
+    "value": "",
+    "required": false
+   },
+   "ALIVE_PIC": {
+   "description": "TELEGRAPH LINK OF THE PIC",
+   "value": "https://telegra.ph/file/916070a7fe1b05922dec5.mp4",
+   "required": false
+   },
+   "PRIVATE_GROUP_ID": {
+    "description": "Same value as PRIVATE_GROUP_BOT_API_ID. Required for pmpermit.",
+    "value": "",
+    "required": true
+   },
+   "MAX_FLOOD_IN_PMS": {
+   "description": "Number of messages you want before block",
+   "value": "5",
+   "required": false
+   },
+   "PMPERMIT_PIC": {
+   "description": "telegraph link of media",
+   "value": "",
+   "required": false
+   },
+   "CUSTOM_PMPERMIT_TEXT": {
+   "description": "The text which you want in your pm permit message",
+   "value": "",
+   "required": false
+   },
+   "CUSTOM_ALIVE_TEXT": {
+   "description": "your custom text which u want in alive",
+   "value": "",
+   "required": false
+   },
+   "OCR_SPACE_API_KEY": {
+    "description": "Required for OCR functionality. Get from https://ocr.space/ocrapi",
+    "value": "",
+    "required": false
+   },
+   "REM_BG_API_KEY": {
+    "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
+    "value": "",
+    "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "YOUR app name ",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+      "value": "Asia/Kolkata",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "Leave as Ultimate if you need custom deploy then type your git repo link",
+      "value": "Ultimate",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
